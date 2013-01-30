@@ -95,9 +95,9 @@
             <layout>default</layout>
         </repository>
         <repository>
-            <id>valotrading</id>
-            <name>valotrading</name>
-            <url>http://valotrading.github.com/maven/</url>
+            <id>SilvertipRepository</id>
+            <name>Silvertip Repository</name>
+            <url>http://valotrading.github.com/silvertip/maven/</url>
             <layout>default</layout>
         </repository>
         <repository>
