@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>stirling</groupId>
+    <artifactId>stirling-fix-console_2.10</artifactId>
+    <packaging>jar</packaging>
+    <description>stirling-fix-console</description>
+    <version>1.4.1</version>
+    <name>stirling-fix-console</name>
+    <organization>
+        <name>stirling</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>stirling</groupId>
+            <artifactId>stirling-core_2.10</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>1.9.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.10</artifactId>
+            <version>1.9.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>LaughingPanda</id>
+            <name>Laughing Panda</name>
+            <url>http://maven.laughingpanda.org/maven2/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>MikkoPeltonen</id>
+            <name>Mikko Peltonen</name>
+            <url>http://mpeltonen.github.com/maven/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Twitter</id>
+            <name>Twitter</name>
+            <url>http://maven.twttr.com/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Valo</id>
+            <name>Valo</name>
+            <url>http://valotrading.github.com/maven/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
