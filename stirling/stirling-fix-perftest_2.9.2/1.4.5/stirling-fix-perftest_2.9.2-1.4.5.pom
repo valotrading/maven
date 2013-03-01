@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>stirling</groupId>
+    <artifactId>stirling-fix-perftest_2.9.2</artifactId>
+    <packaging>jar</packaging>
+    <description>stirling-fix-perftest</description>
+    <version>1.4.5</version>
+    <name>stirling-fix-perftest</name>
+    <organization>
+        <name>stirling</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>stirling</groupId>
+            <artifactId>stirling-core_2.9.2</artifactId>
+            <version>1.4.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>LaughingPanda</id>
+            <name>Laughing Panda</name>
+            <url>http://maven.laughingpanda.org/maven2/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>MikkoPeltonen</id>
+            <name>Mikko Peltonen</name>
+            <url>http://mpeltonen.github.com/maven/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>Valo</id>
+            <name>Valo</name>
+            <url>http://valotrading.github.com/maven/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
